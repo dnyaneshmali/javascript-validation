@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport"    content="width=device-width, initial-scale=1.0">
+      <meta name="keywords" content="bootstrap 3.2, css, jquery, modern" />
+      <meta name="description" content="">
+      <meta name="author"      content="softinfology.com">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <title>Template With Slider</title>
+      <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+      <!--Bootstrap file-->
+      <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+      <!--Font awesome file-->
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <!--Custom stylesheet-->
+   </head>
+   <body id="page-contact" class="body-wrapper">
+      <!--End of main div-->
+      <div class="page-content">
+         <div class="title-section container">
+            <h1 class="text-center">Get In Touch</h1>
+            <p class="text-center text-muted">Have a question, comment, or just want to say hi? Drop us a line!</p>
+         </div>
+         <div class="contact-form">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-12">
+                     <form name="myform" method="POST" onsubmit="return validateform()" action="#" >
+                        <div class="form-group">
+                           <label for="name">Full Name:</label>
+                           <input class="form-control" id="name" type="text" name="fname" placeholder="Enter Name">
+						   <span id="errormsg"></span>
+                        </div>
+                        <div class="form-group">
+                           <label for="email">Email:</label>
+                           <input class="form-control" id="email" type="text" name="email" placeholder="Enter Email">
+						   <span id="emailerrormsg"></span>
+                        </div>
+						<div class="form-group">
+                           <label for="number">Number:</label>
+                           <input class="form-control" id="number" type="text" name="number" placeholder="Enter Mobile Number">
+						   <span id="numbererrormsg"></span>
+                        </div>
+                        <div class="form-group">
+                           <label for="subject">Subject:</label>
+                           <input class="form-control" id="subject" type="text" name="subject" placeholder="Enter Subject">
+						   <span id="suberrormsg"></span>
+                        </div>
+                        <div class="form-group">
+                           <label for="message">Message:</label>
+                           <textarea name="message" id="message" class="form-control" rows="3"></textarea>
+						   <span id="msgerrormsg"></span>
+                        </div>
+                        <button type="submit" class="btn btn-default">Submit</button>
+                     </form>
+                  </div>
+                  
+                  </div>
+               </div>
+            </div>
+         </div>
+	  
+      <script type="text/javascript" src="js/jquery-1.11.1.js"></script> <!--Add Scripts-->
+      <script type="text/javascript" src="js/bootstrap.js"></script> <!--Bootstrap Scripts-->
+      <script type="text/javascript" src="js/script.js"></script> <!--Custom Scripts-->
+   </body>
+</html>
